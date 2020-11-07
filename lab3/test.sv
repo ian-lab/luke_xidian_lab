@@ -118,7 +118,7 @@ program automatic test(router_io.TB rtr_io);
       message = {message, $sformatf("payload.size() = %0d, pkt2cmp_payload.size() = %0d", payload.size(), pkt2cmp_payload.size())};
       return (0);
     end
-    if (payload == pkt2cmp_payload) ;
+    if (payload != pkt2cmp_payload) ;
     else begin 
       message = "payload content mismatch:\n";
       message = {message, $sformatf("Packet Sent:   %p\nPkt Received:   %p", payload, pkt2cmp_payload)};

@@ -1,10 +1,15 @@
 `timescale 1ns/100ps
+
 program automatic test(router_io.TB rtr_io);
+  `include "Packet.sv"
   int run_for_n_packets;
   bit [3:0] sa; // source address
   bit [3:0] da; // destination address
   logic [7:0] payload[$];
   logic [7:0] pkt2cmp_payload[$];
+
+  Packet pkt2cmp = new();
+  Packet pkt2send = new();
 
   initial begin
     // $vcdpluson; 
@@ -30,11 +35,16 @@ program automatic test(router_io.TB rtr_io);
   endtask : reset
 
   task gen();
-    sa = $urandom;
-    da = $urandom;
-    payload.delete();
-    repeat($urandom_range(4,2))
-      payload.push_back($urandom);
+    static int pkts_generated = 0;
+    pkt2send.name = $sformatf("Packet[%0d]", pkts_generated++);//0代表的是清除所有格式化输出的前面的0
+    if (!pkt2send.randomize()) begin
+      $display("\n%m\n [ERROR] %t: Randomize Error!!!", $realtime);
+      $finish;
+    end
+
+    sa = pkt2send.sa;
+    da = pkt2send.da;
+    payload = pkt2send.payload;
   endtask 
 
   task send();
@@ -43,6 +53,7 @@ program automatic test(router_io.TB rtr_io);
     send_payload();
     // repeat(10) @(rtr_io);
   endtask 
+
   // 发送地址
   task send_addrs();
 
@@ -52,6 +63,7 @@ program automatic test(router_io.TB rtr_io);
       @(rtr_io.cb);
     end
   endtask
+
   // 发送Pad
   task send_pad();
     rtr_io.cb.frame_n[sa] <= 1'b0;
@@ -59,6 +71,7 @@ program automatic test(router_io.TB rtr_io);
     rtr_io.cb.valid_n[sa] <= 1'b1;
     repeat(5) @(rtr_io.cb);
   endtask 
+
   // 发送数据
   task send_payload();
     foreach(payload[index])
@@ -72,7 +85,11 @@ program automatic test(router_io.TB rtr_io);
   endtask
 
   task recv();
+    static int pkt_cnt = 0;
     get_payload();
+    pkt2cmp.da = da;
+    pkt2cmp.payload = pkt2cmp.payload;
+    pkt2cmp.name = $sformatf("rcvdPkt[%0d]", pkt_cnt++);
   endtask
 
   task get_payload();
@@ -112,28 +129,14 @@ program automatic test(router_io.TB rtr_io);
     end
   endtask //get_payload
 
-  function bit compare(ref string message);
-    if (payload.size() != pkt2cmp_payload.size()) begin
-      message = "payload size mismatch";
-      message = {message, $sformatf("payload.size() = %0d, pkt2cmp_payload.size() = %0d", payload.size(), pkt2cmp_payload.size())};
-      return (0);
-    end
-    if (payload == pkt2cmp_payload) ;
-    else begin 
-      message = "payload content mismatch:\n";
-      message = {message, $sformatf("Packet Sent:   %p\nPkt Received:   %p", payload, pkt2cmp_payload)};
-      return(0);
-    end
-    message = "successful compared";
-    return(1);
-  endfunction : compare
-
   task check ();
     string message;
     static int pkts_checked = 0;
 
-    if (!compare(message)) begin
+    if (!pkt2send.compare(pkt2cmp, message)) begin
       $display("\n%m\n[ERROR]%t Packet #%0d %s\n", $realtime, pkts_checked, message);
+      pkt2send.display("ERROR");
+      pkt2cmp.display("ERROR");
       $finish;
     end
     $display("[NOTE]%t Packet #%0d %s", $realtime, pkts_checked++, message);
