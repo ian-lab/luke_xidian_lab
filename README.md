@@ -5,7 +5,7 @@
 
 ### lab1
 
-![img](README/图片/YKEyyRxJHAUsPgWY.png!thumbnail)
+![img](https://gitee.com/iannn/typora-image/raw/master/image/202011/07/214626-118780.png)
 
 实验内容
 
@@ -39,7 +39,7 @@
 
 ### lab4
 
-![img](README/图片/Ve6G48nfrIUzPh26.png!thumbnail)
+![img](https://gitee.com/iannn/typora-image/raw/master/image/202011/07/214631-788661.png)
 
 实验内容
 
