@@ -3,6 +3,7 @@
 
 ### lab1
 实验内容
+
 1、用SV给待测试模块（DUT）搭建最简单的测试平台（Testbench）
 
 2、用SV写一个任务（Task）来重置（Reset）DUT
