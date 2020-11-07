@@ -1,0 +1,126 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/952bd1e9/
+SystemClock	router_test_top.sv	/^  bit SystemClock;$/;"	r	module:router_test_top
+addrfsr	router.v	/^  reg [5:0] addrfsr;$/;"	r	module:rtslice
+addrfsr	router.v	/^  reg [5:0] addrfsr;$/;"	r	module:rtslicef
+addrsel	router.v	/^  reg [4:0] addrsf, addrsel;$/;"	r	module:rtslice
+addrsel	router.v	/^  reg [4:0] addrsf, addrsel;$/;"	r	module:rtslicef
+addrsel_g	router.v	/^  wire [4:0] addrsel_g;$/;"	n	module:rtslice
+addrsel_g	router.v	/^  wire [4:0] addrsel_g;$/;"	n	module:rtslicef
+addrsf	router.v	/^  reg [4:0] addrsf, addrsel;$/;"	r	module:rtslice
+addrsf	router.v	/^  reg [4:0] addrsf, addrsel;$/;"	r	module:rtslicef
+arb0	router.v	/^  wire [15:0] arb0, arb1, arb2, arb3, arb4, arb5, arb6, arb7;$/;"	n	module:router
+arb1	router.v	/^  wire [15:0] arb0, arb1, arb2, arb3, arb4, arb5, arb6, arb7;$/;"	n	module:router
+arb10	router.v	/^  wire [15:0] arb8, arb9, arb10, arb11, arb12, arb13, arb14, arb15;$/;"	n	module:router
+arb11	router.v	/^  wire [15:0] arb8, arb9, arb10, arb11, arb12, arb13, arb14, arb15;$/;"	n	module:router
+arb12	router.v	/^  wire [15:0] arb8, arb9, arb10, arb11, arb12, arb13, arb14, arb15;$/;"	n	module:router
+arb13	router.v	/^  wire [15:0] arb8, arb9, arb10, arb11, arb12, arb13, arb14, arb15;$/;"	n	module:router
+arb14	router.v	/^  wire [15:0] arb8, arb9, arb10, arb11, arb12, arb13, arb14, arb15;$/;"	n	module:router
+arb15	router.v	/^  wire [15:0] arb8, arb9, arb10, arb11, arb12, arb13, arb14, arb15;$/;"	n	module:router
+arb2	router.v	/^  wire [15:0] arb0, arb1, arb2, arb3, arb4, arb5, arb6, arb7;$/;"	n	module:router
+arb3	router.v	/^  wire [15:0] arb0, arb1, arb2, arb3, arb4, arb5, arb6, arb7;$/;"	n	module:router
+arb4	router.v	/^  wire [15:0] arb0, arb1, arb2, arb3, arb4, arb5, arb6, arb7;$/;"	n	module:router
+arb5	router.v	/^  wire [15:0] arb0, arb1, arb2, arb3, arb4, arb5, arb6, arb7;$/;"	n	module:router
+arb6	router.v	/^  wire [15:0] arb0, arb1, arb2, arb3, arb4, arb5, arb6, arb7;$/;"	n	module:router
+arb7	router.v	/^  wire [15:0] arb0, arb1, arb2, arb3, arb4, arb5, arb6, arb7;$/;"	n	module:router
+arb8	router.v	/^  wire [15:0] arb8, arb9, arb10, arb11, arb12, arb13, arb14, arb15;$/;"	n	module:router
+arb9	router.v	/^  wire [15:0] arb8, arb9, arb10, arb11, arb12, arb13, arb14, arb15;$/;"	n	module:router
+arb_head	router.v	/^  wire [15:0] arb_head, okstep;$/;"	n	module:router
+arb_head_num	router.v	/^  reg [3:0] arb_head_num;$/;"	r	module:router
+arbena	router.v	/^  reg din1, busy_n, frame1_n, frame2_n, vald1_n, arbena;$/;"	r	module:rtslice
+arbena	router.v	/^  reg din1, busy_n, frame1_n, frame2_n, vald1_n, arbena;$/;"	r	module:rtslicef
+arbhead	router.v	/^  input reset,clock,frame_n,valid_n,din, arbhead;$/;"	p	module:rtslice
+arbhead	router.v	/^  input reset,clock,frame_n,valid_n,din, arbhead;$/;"	p	module:rtslicef
+arbin	router.v	/^  wire [15:0] arbin;$/;"	n	module:rtslice
+arbin	router.v	/^  wire [15:0] arbin;$/;"	n	module:rtslicef
+arbout	router.v	/^  output [15:0] arbout,dout,valido_n;$/;"	p	module:rtslice
+arbout	router.v	/^  output [15:0] arbout,dout,valido_n;$/;"	p	module:rtslicef
+busy1_n	router.v	/^  wire busy1_n;$/;"	n	module:rtslice
+busy1_n	router.v	/^  wire busy1_n;$/;"	n	module:rtslicef
+busy_n	router.v	/^  output [15:0] dout, valido_n, busy_n, frameo_n;$/;"	p	module:router
+busy_n	router.v	/^  output busy_n,okstep;$/;"	p	module:rtslice
+busy_n	router.v	/^  output busy_n,okstep;$/;"	p	module:rtslicef
+busy_n	router.v	/^  reg din1, busy_n, frame1_n, frame2_n, vald1_n, arbena;$/;"	r	module:rtslice
+busy_n	router.v	/^  reg din1, busy_n, frame1_n, frame2_n, vald1_n, arbena;$/;"	r	module:rtslicef
+busy_n	router_io.sv	/^    input busy_n;$/;"	p	interface:router_io
+busy_n	router_io.sv	/^  logic [15:0]	busy_n;$/;"	r	interface:router_io
+clock	router.v	/^  input reset,clock,frame_n,valid_n,din, arbhead;$/;"	p	module:rtslice
+clock	router.v	/^  input reset,clock,frame_n,valid_n,din, arbhead;$/;"	p	module:rtslicef
+clock	router.v	/^  input reset_n, clock;$/;"	p	module:router
+clock	router_io.sv	/^interface router_io(input bit clock);$/;"	p	interface:router_io
+di	router.v	/^  wire [15:0] di;$/;"	n	module:router
+din	router.v	/^  input [15:0] din, frame_n, valid_n;$/;"	p	module:router
+din	router.v	/^  input reset,clock,frame_n,valid_n,din, arbhead;$/;"	p	module:rtslice
+din	router.v	/^  input reset,clock,frame_n,valid_n,din, arbhead;$/;"	p	module:rtslicef
+din	router_io.sv	/^    output din;$/;"	p	interface:router_io
+din	router_io.sv	/^  logic [15:0]	din;$/;"	r	interface:router_io
+din1	router.v	/^  reg din1, busy_n, frame1_n, frame2_n, vald1_n, arbena;$/;"	r	module:rtslice
+din1	router.v	/^  reg din1, busy_n, frame1_n, frame2_n, vald1_n, arbena;$/;"	r	module:rtslicef
+doint	router.v	/^  tri0 [15:0] doint;$/;"	n	module:router
+dout	router.v	/^  output [15:0] arbout,dout,valido_n;$/;"	p	module:rtslice
+dout	router.v	/^  output [15:0] arbout,dout,valido_n;$/;"	p	module:rtslicef
+dout	router.v	/^  output [15:0] dout, valido_n, busy_n, frameo_n;$/;"	p	module:router
+dout	router.v	/^  reg [15:0] dout, valido_n, frameo_n;$/;"	r	module:router
+dout	router.v	/^  wire [15:0] dout;$/;"	n	module:rtslice
+dout	router.v	/^  wire [15:0] dout;$/;"	n	module:rtslicef
+dout	router_io.sv	/^    input dout;$/;"	p	interface:router_io
+dout	router_io.sv	/^  logic [15:0]	dout;$/;"	r	interface:router_io
+frame1_n	router.v	/^  reg din1, busy_n, frame1_n, frame2_n, vald1_n, arbena;$/;"	r	module:rtslice
+frame1_n	router.v	/^  reg din1, busy_n, frame1_n, frame2_n, vald1_n, arbena;$/;"	r	module:rtslicef
+frame2_n	router.v	/^  reg din1, busy_n, frame1_n, frame2_n, vald1_n, arbena;$/;"	r	module:rtslice
+frame2_n	router.v	/^  reg din1, busy_n, frame1_n, frame2_n, vald1_n, arbena;$/;"	r	module:rtslicef
+frame_n	router.v	/^  input [15:0] din, frame_n, valid_n;$/;"	p	module:router
+frame_n	router.v	/^  input reset,clock,frame_n,valid_n,din, arbhead;$/;"	p	module:rtslice
+frame_n	router.v	/^  input reset,clock,frame_n,valid_n,din, arbhead;$/;"	p	module:rtslicef
+frame_n	router_io.sv	/^    output frame_n;$/;"	p	interface:router_io
+frame_n	router_io.sv	/^  logic [15:0]	frame_n;$/;"	r	interface:router_io
+frameo_n	router.v	/^  inout [15:0] frameo_n;$/;"	p	module:rtslice
+frameo_n	router.v	/^  inout [15:0] frameo_n;$/;"	p	module:rtslicef
+frameo_n	router.v	/^  output [15:0] dout, valido_n, busy_n, frameo_n;$/;"	p	module:router
+frameo_n	router.v	/^  reg [15:0] dout, valido_n, frameo_n;$/;"	r	module:router
+frameo_n	router_io.sv	/^    input frameo_n; $/;"	p	interface:router_io
+frameo_n	router_io.sv	/^  logic [15:0]	frameo_n;$/;"	r	interface:router_io
+frameoint_n	router.v	/^  tri1 [15:0] valdoint_n, frameoint_n;$/;"	n	module:router
+i	router.v	/^  reg [3:0] i;$/;"	r	module:rtslice
+iarbin	router.v	/^  input [15:0] iarbin;$/;"	p	module:rtslice
+iarbin	router.v	/^  input [15:0] iarbin;$/;"	p	module:rtslicef
+okstep	router.v	/^  output busy_n,okstep;$/;"	p	module:rtslice
+okstep	router.v	/^  output busy_n,okstep;$/;"	p	module:rtslicef
+okstep	router.v	/^  wire [15:0] arb_head, okstep;$/;"	n	module:router
+reset	router.v	/^  input reset,clock,frame_n,valid_n,din, arbhead;$/;"	p	module:rtslice
+reset	router.v	/^  input reset,clock,frame_n,valid_n,din, arbhead;$/;"	p	module:rtslicef
+reset	router.v	/^  wire reset;$/;"	n	module:router
+reset	test.sv	/^  task reset();$/;"	t	program:test
+reset_n	router.v	/^  input reset_n, clock;$/;"	p	module:router
+reset_n	router_io.sv	/^  	output reset_n;$/;"	p	interface:router_io
+reset_n	router_io.sv	/^  logic		reset_n;$/;"	r	interface:router_io
+router	router.v	/^module router$/;"	m
+router_io	router_io.sv	/^interface router_io(input bit clock);$/;"	I
+router_io	test.sv	/^program automatic test(router_io.TB rtr_io);$/;"	p	program:test
+router_test_top	router_test_top.sv	/^module router_test_top;$/;"	m
+rtr_io	test.sv	/^program automatic test(router_io.TB rtr_io);$/;"	p	program:test
+rtslice	router.v	/^module rtslice$/;"	m
+rtslicef	router.v	/^module rtslicef$/;"	m
+simulation_cycle	router_test_top.sv	/^  parameter simulation_cycle = 100;$/;"	c	module:router_test_top
+test	test.sv	/^program automatic test(router_io.TB rtr_io);$/;"	P
+vald1_n	router.v	/^  reg din1, busy_n, frame1_n, frame2_n, vald1_n, arbena;$/;"	r	module:rtslice
+vald1_n	router.v	/^  reg din1, busy_n, frame1_n, frame2_n, vald1_n, arbena;$/;"	r	module:rtslicef
+valdoint_n	router.v	/^  tri1 [15:0] valdoint_n, frameoint_n;$/;"	n	module:router
+valid_n	router.v	/^  input [15:0] din, frame_n, valid_n;$/;"	p	module:router
+valid_n	router.v	/^  input reset,clock,frame_n,valid_n,din, arbhead;$/;"	p	module:rtslice
+valid_n	router.v	/^  input reset,clock,frame_n,valid_n,din, arbhead;$/;"	p	module:rtslicef
+valid_n	router_io.sv	/^    output valid_n;$/;"	p	interface:router_io
+valid_n	router_io.sv	/^  logic [15:0]	valid_n;$/;"	r	interface:router_io
+valido_n	router.v	/^  output [15:0] arbout,dout,valido_n;$/;"	p	module:rtslice
+valido_n	router.v	/^  output [15:0] arbout,dout,valido_n;$/;"	p	module:rtslicef
+valido_n	router.v	/^  output [15:0] dout, valido_n, busy_n, frameo_n;$/;"	p	module:router
+valido_n	router.v	/^  reg [15:0] dout, valido_n, frameo_n;$/;"	r	module:router
+valido_n	router_io.sv	/^    input valido_n;$/;"	p	interface:router_io
+valido_n	router_io.sv	/^  logic [15:0]	valido_n;$/;"	r	interface:router_io

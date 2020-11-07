@@ -1,0 +1,32 @@
+D:/program/modelsim_v/xidian_luke_lab/lab1/router.v {1 {vlog -work work -vopt -stats=none D:/program/modelsim_v/xidian_luke_lab/lab1/router.v
+QuestaSim-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module router
+-- Compiling module rtslice
+-- Compiling module rtslicef
+
+Top level modules:
+	router
+	rtslicef
+
+} {} {}} D:/program/modelsim_v/xidian_luke_lab/lab1/router_test_top.sv {1 {vlog -work work -vopt -sv -stats=none D:/program/modelsim_v/xidian_luke_lab/lab1/router_test_top.sv
+QuestaSim-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module router_test_top
+
+Top level modules:
+	router_test_top
+
+} {} {}} D:/program/modelsim_v/xidian_luke_lab/lab1/test.sv {1 {vlog -work work -vopt -sv -stats=none D:/program/modelsim_v/xidian_luke_lab/lab1/test.sv
+QuestaSim-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling program test
+
+Top level modules:
+	test
+
+} {} {}} D:/program/modelsim_v/xidian_luke_lab/lab1/router_io.sv {1 {vlog -work work -vopt -sv -stats=none D:/program/modelsim_v/xidian_luke_lab/lab1/router_io.sv
+QuestaSim-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling interface router_io
+
+Top level modules:
+	--none--
+
+} {} {}}
