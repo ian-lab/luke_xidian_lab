@@ -1,7 +1,11 @@
 # luke_xidian_lab
 路科验证西电课程实验
 
+![img](https://gitee.com/iannn/typora-image/raw/master/image/202011/07/214109-553476.png)
+
 ### lab1
+
+![img](README/图片/YKEyyRxJHAUsPgWY.png!thumbnail)
 
 实验内容
 
@@ -13,6 +17,8 @@
 
 ### lab2
 
+![img](https://gitee.com/iannn/typora-image/raw/master/image/202011/07/214200-324483.png)
+
 实验内容
 
 1、拓展lab1中的测试平台，从一个输入端向一个输出端发送数据包
@@ -20,6 +26,8 @@
 2、用新的测试平台来编译和仿真设计文件
 
 ### lab3
+
+![img](https://gitee.com/iannn/typora-image/raw/master/image/202011/07/214339-962091.png)
 
 实验内容
 
@@ -30,6 +38,8 @@
 3、运行Driver和Monitor程序，检验Checker能否正确比数
 
 ### lab4
+
+![img](README/图片/Ve6G48nfrIUzPh26.png!thumbnail)
 
 实验内容
 
