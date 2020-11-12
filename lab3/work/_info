@@ -30,7 +30,7 @@ n@_opt1
 R4
 R0
 vrouter
-Z5 !s110 1604761760
+Z5 !s110 1604805694
 !i10b 1
 !s100 nVdMV^z>Z`FTWkH0:VgZk1
 Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -40,13 +40,13 @@ Z8 dD:/program/modelsim_v/xidian_luke_lab/lab3
 Z9 w1604110590
 Z10 8D:/program/modelsim_v/xidian_luke_lab/lab3/router.v
 Z11 FD:/program/modelsim_v/xidian_luke_lab/lab3/router.v
-!i122 83
+!i122 92
 L0 30 108
 Z12 OL;L;2020.1;71
 r1
 !s85 0
 31
-Z13 !s108 1604761760.000000
+Z13 !s108 1604805694.000000
 Z14 !s107 D:/program/modelsim_v/xidian_luke_lab/lab3/router.v|
 Z15 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/program/modelsim_v/xidian_luke_lab/lab3/router.v|
 !i113 0
@@ -65,7 +65,7 @@ R8
 w1604321646
 8D:/program/modelsim_v/xidian_luke_lab/lab3/router_io.sv
 FD:/program/modelsim_v/xidian_luke_lab/lab3/router_io.sv
-!i122 84
+!i122 93
 L0 1 0
 R12
 r1
@@ -79,7 +79,7 @@ Z18 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R3
 vrouter_test_top
 R17
-Z19 !s110 1604761761
+R5
 !i10b 1
 !s100 X@HEi2cEL[FKeMkghG<EX0
 R6
@@ -90,7 +90,7 @@ R8
 w1604064364
 8D:/program/modelsim_v/xidian_luke_lab/lab3/router_test_top.sv
 FD:/program/modelsim_v/xidian_luke_lab/lab3/router_test_top.sv
-!i122 85
+!i122 94
 L0 6 50
 R12
 r1
@@ -113,7 +113,7 @@ R8
 R9
 R10
 R11
-!i122 83
+!i122 92
 L0 139 222
 R12
 r1
@@ -136,7 +136,7 @@ R8
 R9
 R10
 R11
-!i122 83
+!i122 92
 L0 362 217
 R12
 r1
@@ -150,24 +150,24 @@ R16
 R3
 4test
 R17
-R19
+R5
 !i10b 1
-!s100 >in8Ge9Z;eHF^V1NkKILQ0
+!s100 d8FCg4kX^FHo=]GnnZFZj1
 R6
-IQJ]1N:1B0G1JKOjC>AMC@1
+Im6i13Dh25TDOT`C1o4d9m3
 R7
 S1
 R8
-w1604755972
+w1604763570
 8D:/program/modelsim_v/xidian_luke_lab/lab3/test.sv
 FD:/program/modelsim_v/xidian_luke_lab/lab3/test.sv
-!i122 86
+!i122 95
 L0 2 0
 R12
 r1
 !s85 0
 31
-!s108 1604761761.000000
+R13
 !s107 D:/program/modelsim_v/xidian_luke_lab/lab3/test.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/program/modelsim_v/xidian_luke_lab/lab3/test.sv|
 !i113 0

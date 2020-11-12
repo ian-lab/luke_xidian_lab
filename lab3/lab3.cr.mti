@@ -5,12 +5,180 @@ QuestaSim-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
 Top level modules:
 	test
 
-} {} {}} D:/program/modelsim_v/xidian_luke_lab/lab3/router_io.sv {1 {vlog -work work -vopt -sv -stats=none D:/program/modelsim_v/xidian_luke_lab/lab3/router_io.sv
+} {} {}} D:/program/modelsim_v/xidian_luke_lab/lab3/router_io.sv {2 {vlog -work work -vopt -sv -stats=none D:/program/modelsim_v/xidian_luke_lab/lab3/router_io.sv
 QuestaSim-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
 -- Compiling interface router_io
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 468
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
 
 Top level modules:
 	--none--
+
+} {} {}} D:/program/modelsim_v/xidian_luke_lab/lab4/Packet.sv {0 {vlog -work work -vopt -sv -stats=none D:/program/modelsim_v/xidian_luke_lab/lab4/Packet.sv
+QuestaSim-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 9412
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Error: (vlog-7) Failed to open ini file "D:/program/modelsim_v/xidian_luke_lab/lab4/lab4.mpf" in read mode.
+Invalid argument. (errno = EINVAL)
+** Error: (vlog-7) Failed to open ini file "D:/program/modelsim_v/xidian_luke_lab/lab4/lab4.mpf" in read mode.
+Invalid argument. (errno = EINVAL)
+** Error: (vlog-7) Failed to open ini file "D:/program/modelsim_v/xidian_luke_lab/lab4/lab4.mpf" in read mode.
+Invalid argument. (errno = EINVAL)
+** Warning: (vlib-14) Failed to open "D:/program/modelsim_v/xidian_luke_lab/lab4/lab4.mpf" specified by the MODELSIM environment variable.
+No such file or directory. (errno = ENOENT)
+** Warning: (vlog-6) -- Waiting for lock by "84308@DESKTOP-OFV538P, pid = 10944
+". Lockfile is "D:/program/modelsim_v/xidian_luke_lab/lab4/work/_lock".
+** Error (suppressible): (vlib-19) Failed to access library 'sv_std' at "sv_std".
+No such file or directory. (errno = ENOENT)
+** Error (suppressible): (vlib-19) Failed to access library 'sv_std' at "sv_std".
+No such file or directory. (errno = ENOENT)
+** Error: D:/program/modelsim_v/xidian_luke_lab/lab4/Packet.sv(4): Cannot find builtin library "sv_std".
+** Error: D:/program/modelsim_v/xidian_luke_lab/lab4/Packet.sv(4): (vlib-13006) Could not find the package (std).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: (vlog-7) Failed to open ini file "D:/program/modelsim_v/xidian_luke_lab/lab4/lab4.mpf" in read mode.
+Invalid argument. (errno = EINVAL)
+** Error: (vlog-7) Failed to open ini file "D:/program/modelsim_v/xidian_luke_lab/lab4/lab4.mpf" in read mode.
+Invalid argument. (errno = EINVAL)
+** Error: (vlog-7) Failed to open ini file "D:/program/modelsim_v/xidian_luke_lab/lab4/lab4.mpf" in read mode.
+Invalid argument. (errno = EINVAL)
+** Error: D:/program/modelsim_v/xidian_luke_lab/lab4/Packet.sv(4): (vlog-13006) Could not find the package (std).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/program/modelsim_v/xidian_luke_lab/lab4/Packet.sv(4): (vlog-13006) Could not find the package (std).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/program/modelsim_v/xidian_luke_lab/lab4/Packet.sv(4): (vlog-13006) Could not find the package (std).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: (vlog-7) Failed to open ini file "D:/program/modelsim_v/xidian_luke_lab/lab4/lab4.mpf" in read mode.
+Invalid argument. (errno = EINVAL)
+** Error: (vlog-7) Failed to open ini file "D:/program/modelsim_v/xidian_luke_lab/lab4/lab4.mpf" in read mode.
+Invalid argument. (errno = EINVAL)
+** Error: (vlog-7) Failed to open ini file "D:/program/modelsim_v/xidian_luke_lab/lab4/lab4.mpf" in read mode.
+Invalid argument. (errno = EINVAL)
+** Error: D:/program/modelsim_v/xidian_luke_lab/lab4/Packet.sv(4): (vlog-13006) Could not find the package (std).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/program/modelsim_v/xidian_luke_lab/lab4/Packet.sv(4): (vlog-13006) Could not find the package (std).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/program/modelsim_v/xidian_luke_lab/lab4/Packet.sv(4): (vlog-13006) Could not find the package (std).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: (vlog-7) Failed to open ini file "D:/program/modelsim_v/xidian_luke_lab/lab4/lab4.mpf" in read mode.
+Invalid argument. (errno = EINVAL)
+** Error: (vlog-7) Failed to open ini file "D:/program/modelsim_v/xidian_luke_lab/lab4/lab4.mpf" in read mode.
+Invalid argument. (errno = EINVAL)
+** Error: (vlog-7) Failed to open ini file "D:/program/modelsim_v/xidian_luke_lab/lab4/lab4.mpf" in read mode.
+Invalid argument. (errno = EINVAL)
+** Error: D:/program/modelsim_v/xidian_luke_lab/lab4/Packet.sv(4): (vlog-13006) Could not find the package (std).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/program/modelsim_v/xidian_luke_lab/lab4/Packet.sv(4): (vlog-13006) Could not find the package (std).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/program/modelsim_v/xidian_luke_lab/lab4/Packet.sv(4): (vlog-13006) Could not find the package (std).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: (vlog-7) Failed to open ini file "D:/program/modelsim_v/xidian_luke_lab/lab4/lab4.mpf" in read mode.
+Invalid argument. (errno = EINVAL)
+** Error: (vlog-7) Failed to open ini file "D:/program/modelsim_v/xidian_luke_lab/lab4/lab4.mpf" in read mode.
+Invalid argument. (errno = EINVAL)
+** Error: (vlog-7) Failed to open ini file "D:/program/modelsim_v/xidian_luke_lab/lab4/lab4.mpf" in read mode.
+Invalid argument. (errno = EINVAL)
+** Error: D:/program/modelsim_v/xidian_luke_lab/lab4/Packet.sv(4): (vlog-13006) Could not find the package (std).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/program/modelsim_v/xidian_luke_lab/lab4/Packet.sv(4): (vlog-13006) Could not find the package (std).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/program/modelsim_v/xidian_luke_lab/lab4/Packet.sv(4): (vlog-13006) Could not find the package (std).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+
+} {107.0 108.0 109.0 110.0 111.0 112.0 121.0 124.0 125.0 126.0 127.0 128.0 129.0 133.0 134.0 135.0 136.0 137.0 138.0 142.0 143.0 144.0 145.0 146.0 147.0 151.0 152.0 153.0 154.0 155.0 156.0 159.0} {}} D:/program/modelsim_v/xidian_luke_lab/lab3/router_test_top.sv {1 {vlog -work work -vopt -sv -stats=none D:/program/modelsim_v/xidian_luke_lab/lab3/router_test_top.sv
+QuestaSim-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module router_test_top
+
+Top level modules:
+	router_test_top
 
 } {} {}} D:/program/modelsim_v/xidian_luke_lab/lab3/router.v {1 {vlog -work work -vopt -stats=none D:/program/modelsim_v/xidian_luke_lab/lab3/router.v
 QuestaSim-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
@@ -21,12 +189,5 @@ QuestaSim-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
 Top level modules:
 	router
 	rtslicef
-
-} {} {}} D:/program/modelsim_v/xidian_luke_lab/lab3/router_test_top.sv {1 {vlog -work work -vopt -sv -stats=none D:/program/modelsim_v/xidian_luke_lab/lab3/router_test_top.sv
-QuestaSim-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
--- Compiling module router_test_top
-
-Top level modules:
-	router_test_top
 
 } {} {}}

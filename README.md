@@ -50,3 +50,17 @@
 3、创建两个packet对象（object），一个包用来在DUT输入端输入，另一个包用来和DUT输出的数据相参照。
 
 4、将compare()方法嵌入packet类，用来验证DUT工作的正确性。
+
+### lab5
+
+![img](README/图片/vQGMWauGDUQKF2To.png!original)
+
+1、创建一个Generator transactor的类。
+
+2、创建一个Driver的类。
+
+3、创建一个Reciever的类。
+
+4、拓展这个测试平台，并将Driver和Monitor同时连接到所有输入端和输出端。
+
+

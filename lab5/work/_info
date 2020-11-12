@@ -1,0 +1,37 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.01, Jan 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/program/modelsim_v/xidian_luke_lab/lab5
+4test
+DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1605186268
+!i10b 1
+!s100 QMJ_Z^9_YcMdN?a`=1VE13
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+I7^M2Q3^dfUgczfHji]U7g2
+VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1605186267
+8c:\users\84308\appdata\local\temp\tmp6ezz2o.sv
+Fc:\users\84308\appdata\local\temp\tmp6ezz2o.sv
+FPacket.sv
+!i122 0
+L0 3 0
+OL;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1605186267.000000
+!s107 Packet.sv|c:\users\84308\appdata\local\temp\tmp6ezz2o.sv|
+!s90 c:\users\84308\appdata\local\temp\tmp6ezz2o.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+tCvgOpt 0
