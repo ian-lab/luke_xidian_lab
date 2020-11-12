@@ -53,7 +53,7 @@
 
 ### lab5
 
-![img](README/图片/vQGMWauGDUQKF2To.png!original)
+![img](https://gitee.com/iannn/typora-image/raw/master/image/202011/12/213954-375807.png)
 
 1、创建一个Generator transactor的类。
 
