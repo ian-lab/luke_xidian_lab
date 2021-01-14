@@ -1,4 +1,11 @@
-D:/program/modelsim_v/xidian_luke_lab/lab4/test.sv {2 {vlog -work work -vopt -sv -stats=none D:/program/modelsim_v/xidian_luke_lab/lab4/test.sv
+D:/program/modelsim_v/xidian_luke_lab/lab4/router_io.sv {1 {vlog -work work -vopt -sv -stats=none D:/program/modelsim_v/xidian_luke_lab/lab4/router_io.sv
+QuestaSim-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling interface router_io
+
+Top level modules:
+	--none--
+
+} {} {}} D:/program/modelsim_v/xidian_luke_lab/lab4/test.sv {2 {vlog -work work -vopt -sv -stats=none D:/program/modelsim_v/xidian_luke_lab/lab4/test.sv
 QuestaSim-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
 -- Compiling program test
 ** Warning: ** while parsing file included at D:/program/modelsim_v/xidian_luke_lab/lab4/test.sv(4)
@@ -9,29 +16,6 @@ QuestaSim-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
 Top level modules:
 	test
 
-} {} {}} D:/program/modelsim_v/xidian_luke_lab/lab4/Packet.sv {2 {vlog -work work -vopt -sv -stats=none D:/program/modelsim_v/xidian_luke_lab/lab4/Packet.sv
-QuestaSim-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
--- Compiling package Packet_sv_unit
-** Warning: D:/program/modelsim_v/xidian_luke_lab/lab4/Packet.sv(50): (vlog-2217) No default specified for 'name'.  Default must match the value specified in class at D:/program/modelsim_v/xidian_luke_lab/lab4/Packet.sv(40) for strict LRM compliance.
-** Warning: D:/program/modelsim_v/xidian_luke_lab/lab4/Packet.sv(106): (vlog-2217) No default specified for 'prefix'.  Default must match the value specified in class at D:/program/modelsim_v/xidian_luke_lab/lab4/Packet.sv(42) for strict LRM compliance.
-
-Top level modules:
-	--none--
-
-} {} {}} D:/program/modelsim_v/xidian_luke_lab/lab4/router_io.sv {1 {vlog -work work -vopt -sv -stats=none D:/program/modelsim_v/xidian_luke_lab/lab4/router_io.sv
-QuestaSim-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
--- Compiling interface router_io
-
-Top level modules:
-	--none--
-
-} {} {}} D:/program/modelsim_v/xidian_luke_lab/lab4/router_test_top.sv {1 {vlog -work work -vopt -sv -stats=none D:/program/modelsim_v/xidian_luke_lab/lab4/router_test_top.sv
-QuestaSim-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
--- Compiling module router_test_top
-
-Top level modules:
-	router_test_top
-
 } {} {}} D:/program/modelsim_v/xidian_luke_lab/lab4/router.v {1 {vlog -work work -vopt -stats=none D:/program/modelsim_v/xidian_luke_lab/lab4/router.v
 QuestaSim-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
 -- Compiling module router
@@ -41,5 +25,12 @@ QuestaSim-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
 Top level modules:
 	router
 	rtslicef
+
+} {} {}} D:/program/modelsim_v/xidian_luke_lab/lab4/router_test_top.sv {1 {vlog -work work -vopt -sv -stats=none D:/program/modelsim_v/xidian_luke_lab/lab4/router_test_top.sv
+QuestaSim-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module router_test_top
+
+Top level modules:
+	router_test_top
 
 } {} {}}
